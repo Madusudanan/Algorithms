@@ -73,7 +73,7 @@ import java.util.*;
 
     /**
      * Remove dups by sorting the array first. Then walk through the array to filter out intermediate same elements
-     * Uses O(NLogN) time but consumes no extra space
+     * Uses O(NLogN) time and O(N) space
      */
     public static ArrayList<Integer> removeDupsUsingSorting(int data[]){
 
